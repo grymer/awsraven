@@ -220,6 +220,6 @@ def lambda_handler(event, context):
         return {
             'isBase64Encoded': 0,
             'statusCode': 405,
-            'headers': {'Content-Type': 'text/html; charset=utf-8', 'Location': params['url']},
+            'headers': {'Content-Type': 'text/html; charset=utf-8'},
             'body': error_page('Error: unsupported method')
         }
