@@ -17,3 +17,5 @@ This function uses the Python 3.7 runtime, and requires both Crypto and bcrypt m
 The Zip archive can be uploaded to the AWS Lambda Management Console.
 
 The function is designed to work with AWS API Gateway. You will need to create resources for GET and POST methods, and use Lambda Proxy integration.
+
+The file 'pubkey1' has been exported from the embedded private key, and is in the correct format to be used with Apache/mod_ucam_webauth for testing.
